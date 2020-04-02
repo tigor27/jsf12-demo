@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans>
+	<bean id="messageService" class="com.ibm.test.MessageServiceImpl">
+		<property name="message" value="Hello World!" />
+	</bean>
+</beans>
